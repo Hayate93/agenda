@@ -1,0 +1,27 @@
+STRUCTURA:
+
+APP
+    InfoBoard
+        Table (date despre nume | nr. telefon)
+    InputBoard
+        Form
+            Input[nume]
+            Input[nr. telefon]
+            Submit
+            Delete
+
+STATE:
+
+State va fi in <App>
+
+state: {
+    info: [
+        { nume: "Alex", numar: 0724684923 }
+        ...etc
+    ]
+}
+
+TIPS:
+
+- On form submit, save 'info' as json to local storage
+- On app load, useEffect() to load 'info' from local storage, parse and save to state

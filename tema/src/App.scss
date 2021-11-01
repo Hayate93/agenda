@@ -1,0 +1,27 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap');
+
+// component imports
+@import "./components/info-board/info-board";
+@import "./components/input-board/input-board";
+@import "./components/form-input/form-input";
+
+* {
+    font-family: 'STIX Two Text', serif;
+}
+body {
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+}
+#app-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    #app-content-wrapper {
+        padding: 70px;
+        width: 50%;
+        > h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+}

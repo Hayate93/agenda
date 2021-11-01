@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap");
+#info-board table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 30px; }
+
+#info-board td, #info-board th {
+  border: 1px solid #ddd;
+  padding: 8px; }
+
+#info-board tr:nth-child(odd) {
+  background-color: #f2f2f2; }
+
+#info-board tr:nth-child(even) {
+  background-color: #d9d9d9; }
+
+#info-board th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white; }
+
+#input-board {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px; }
+  #input-board .form-buttons {
+    position: relative;
+    display: flex;
+    top: 20px;
+    width: 300px; }
+    #input-board .form-buttons button {
+      flex: 1 0;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      background: #04AA6D;
+      color: white;
+      font-weight: bold;
+      padding: 8px 20px 8px 20px;
+      margin: 5px;
+      cursor: pointer;
+      transition: 0.25s;
+      font-size: 18px; }
+      #input-board .form-buttons button:hover {
+        opacity: 0.85;
+        transition: 0.25s; }
+      #input-board .form-buttons button:not(button[type="submit"]) {
+        background: red; }
+  #input-board .form-inputs-wrapper label {
+    text-align: left;
+    color: black;
+    font-weight: bold; }
+  #input-board .form-inputs-wrapper input {
+    outline: none;
+    border: 3px solid transparent; }
+    #input-board .form-inputs-wrapper input:focus {
+      border: 3px outset #04AA6D; }
+
+.input-group {
+  width: 300px;
+  display: flex;
+  margin-bottom: 15px; }
+  .input-group input {
+    flex: 1 0; }
+  .input-group label {
+    flex: 1 0; }
+
+* {
+  font-family: 'STIX Two Text', serif; }
+
+body {
+  background-image: linear-gradient(109.6deg, #3df5a7 11.2%, #096fe0 91.1%); }
+
+#app-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  #app-container #app-content-wrapper {
+    padding: 70px;
+    width: 50%; }
+    #app-container #app-content-wrapper > h1 {
+      text-align: center;
+      font-size: 40px; }
+
+/*# sourceMappingURL=App.css.map */
